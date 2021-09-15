@@ -1,0 +1,17 @@
+{
+  "name": "nodejs-sending-receiving-emails",
+  "version": "1.0.0",
+  "description": "An example of using nodemailer to send emails, imap-simple to fetch emails, and mailparser to parse emails.",
+  "main": "index.mjs",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "imap-simple": "5.1.0",
+    "jabber": "1.2.2",
+    "nodemailer": "6.6.3",
+    "mailparser": "3.3.1"
+  },
+  "scripts": {
+    "start": "node index.mjs"
+  }
+}
